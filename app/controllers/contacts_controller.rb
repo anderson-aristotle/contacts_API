@@ -1,4 +1,4 @@
-class ContactsController <ApplicationController
+class ContactsController < OpenReadController
   before_action :set_contact, only: [:show, :update, :destroy]
 
   # GET /contacts
@@ -15,7 +15,7 @@ class ContactsController <ApplicationController
 
   # POST /contacts
   def create
-    @contact = current_user.contact.create(contact_params)
+    @contact = current_user.contacts.new(contact_params)
 
     if @contact.save
       render json: @contact, status: :created, location: @contact

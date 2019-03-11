@@ -1,4 +1,4 @@
-class ContactsController < ApplicationController
+class ContactsController <ApplicationController
   before_action :set_contact, only: [:show, :update, :destroy]
 
   # GET /contacts
@@ -15,7 +15,7 @@ class ContactsController < ApplicationController
 
   # POST /contacts
   def create
-    @contact = Contact.new(contact_params)
+    @contact = current_user.contact.create(contact_params)
 
     if @contact.save
       render json: @contact, status: :created, location: @contact
@@ -41,7 +41,7 @@ class ContactsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_contact
-      @contact = Contact.find(params[:id])
+      @contact = current_user.Contact.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.

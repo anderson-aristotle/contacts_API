@@ -54,6 +54,12 @@ https://imgur.com/73S13Re
 6. As a user, I want to update a resource.
 7. As a user, I want to delete a resource.
 
+## Links
+1. https://github.com/anderson-aristotle/contacts_api	
+2. https://sheltered-plateau-98685.herokuapp.com/	
+3. https://github.com/anderson-aristotle/contacts_client
+4. https://anderson-aristotle.github.io/contacts-client/
+
 ## Problem Solving Strategy
 
 1. Break down problems into smallest solvable problem and build up.

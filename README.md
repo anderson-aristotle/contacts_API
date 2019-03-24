@@ -1,30 +1,29 @@
 # E-Contacts!
 
-A online contacts resources where user will be able to creat, read, update, and delete a contact resource.
+A online contacts database where user are able to create, read, update, and delete a contact resource.
 
 ## Getting Started
 
-Go to https://github.com/anderson-aristotle/contacts_api to explore the api code.
 Go to https://github.com/anderson-aristotle/contacts_client to explore client code.
 
 ## Technologies used
 
-+ HTML
-+ CSS
-+ Javascript + jQuery
 + Bootstrap
-+ Ruby on Rails
++ CSS
 + Handlebars
++ HTML
++ Javascript
++ jQuery
++ Ruby on Rails
 
 ## Planning and Development
 
-Plan:
 1. Wireframe
 2. Meet with Production Team
 3. File Architure Planning
-4. Start building backend api with Heroku
+4. Build backend application programming interface (API) with Ruby on Rails
 5. Test authentication features with curl-scripts
-6. Start building front-end
+6. Start building front-end environment
 7. Test CRUD features on contact resource
 8. Add Handlebar code on contract resources
 9. Project Requirements
@@ -43,13 +42,8 @@ Plan:
 10 Built HTML elements to carry out CRUD actions
 
 #### Entity Relationship Diagram [ERD]
-[Imgur](https://i.imgur.com/73S13Re.png?1)
+[ERD](https://i.imgur.com/73S13Re.png?1)
 
-## Links
-1. https://github.com/anderson-aristotle/contacts_api
-2. https://sheltered-plateau-98685.herokuapp.com/
-3. https://github.com/anderson-aristotle/contacts_client
-4. https://anderson-aristotle.github.io/contacts-client/
 
 ## Problem Solving Strategy
 
@@ -60,7 +54,7 @@ Plan:
 
 ## Unsolved Problems (Problem Working on at the time of editing this file)
 
-1. CSS and layout need improvements.
+1. Upgrade API and Database Performance
 
 ## Future Direction (Super Stretch Goals)
 

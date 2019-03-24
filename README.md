@@ -42,17 +42,8 @@ Plan:
 9. Test contact resource CRUD actions
 10 Built HTML elements to carry out CRUD actions
 
-#### Initial wireframes and user stories
+#### Entity Relationship Diagram [ERD]
 [Imgur](https://i.imgur.com/73S13Re.png?1)
-
-1. As a user, I want to sign up.
-2. As a user, I want to sign in.
-3. As a user, I want to change passwords.
-4. As a user, I want to sign out.
-5. As a user, I want to create a resource.
-6. As a user, I want to read a resource.
-6. As a user, I want to update a resource.
-7. As a user, I want to delete a resource.
 
 ## Links
 1. https://github.com/anderson-aristotle/contacts_api
